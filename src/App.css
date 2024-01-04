@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding: 0;
+  text-decoration:none;
+}
+.item{
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 600;
+}
+.stop{
+  height: 600px;
+  width: 540px;
+  border:none;
+  padding: 30px 50px;
+  border-radius: 8px;
+background-color: #2a2a2a;
+}
+::placeholder {
+  color: rgb(206, 197, 197) !important;
+  opacity: 1 !important; 
+}
+.bute{
+  /* width : 150px; */
+  border-radius: 28px;
+  margin : 0px 130px;
+  padding : 15px 60px;
+  font-weight: 500;
+
+}
+.invest{
+  padding:10px 10px;
+  margin:10px 10px;
+  width:350px;
+  line-height:30px;
+  height: 290px;
+  border-radius: 20px;
+  border: 3px solid rgba(241, 156, 44, 0.678);
+}
+
+
+.video {
+  padding-top: 100px;
+  margin-top: -100px;
+  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  
+}
+.until{
+  width: 117px;
+  height: 104px;
+}
+.which{
+  margin-bottom: 60px;
+  margin-top: 27px;
+}
+.warning{
+  font-family: auto;
+    color: #fdc213;
+    font-size: 40px;
+    font-weight: 700;
+}
+.wait{
+  color: #fff;
+    font-family: Bebas Neue,sans-serif;
+    font-size: 53px;
+}
+.paste{
+  color: #fdc213;
+}
+.only{
+    color: #fff;
+    font-family: Bebas Neue,sans-serif;
+    font-size: 53px;
+    font-weight: 200px;
+}
+.pick{
+  font-size: 53px;
+}
+.white{
+  color: #fff;
+    font-family: Bebas Neue,sans-serif;
+    font-size: 63px;
+}
+.way{
+  margin-left: 120px;
+    margin-top: 22px;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+
+
+/* .real {
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px 40px;
+  margin-top: 20%;
+  margin-left: 40%;
+  justify-content: space-between;
+  background-color: aliceblue;
+  color: black;
+} */
+
+
+.bannerVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+ 
+@media(max-width : 576px){
+  .stop{
+    height: 600px;
+   width: auto;
+    border:none;
+    padding: 30px 50px;
+    border-radius: 8px;
+  background-color: #2a2a2a;
+  }
+  .bute{
+    border-radius: 28px;
+    margin : 0px 0px;
+    padding : 15px 60px;
+    font-weight: 500;
+  }
+  .invest{
+   
+    margin:9px 0px;
+  }
+  .video{
+    width: 320px;
+    margin-top :-100px;
+  }
+  .flip{
+    margin-top : -20px;
+  }
+
+}
+/* @media(max-width:768px){
+  .always{
+    font-size: 13px;
+  }
+  .video{
+    width: 768px;
+  }
+} */
+/* @media(max-width:1024px){
+  .video{
+    width: 1024px;
+  }
+} */
+
